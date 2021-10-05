@@ -12,7 +12,7 @@ background(255);
 pushMatrix();
 
 translate(101+r,399);
-r += 2;
+r += 10;
 if(r>1050){
   r=-200;
 }
