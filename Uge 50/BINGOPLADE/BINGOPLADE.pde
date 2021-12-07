@@ -1,23 +1,30 @@
-int[] colonne = new int[3];
+int[] kolonne = new int[3];
 int[][] bankoPlade = new int[9][3];
 
 int loop = 0;
 
 void setup(){
- if(loop<=8){
-    colonne = tilfaeldigeTal(colonne.length);
-    colonne = sorter(colonne);
-  
-    while(findEns(colonne)){
-    colonne = tilfaeldigeTal(colonne.length);
-    colonne = sorter(colonne);
-    }
-    loop++;
-  }
-  printArray(colonne); 
-  printArray(bankoPlade);
+  size(600,600);
 
+  
+
+  printArray(kolonne);
+  printArray(bankoPlade);
 }
+
+void genererKolonne(){
+  int[] k = new int[3];
+  
+  kolonne = tilfaeldigeTal(k.length);
+    kolonne = sorter(k);
+  
+    while(findEns(k)){
+    kolonne = tilfaeldigeTal(k.length);
+    kolonne = sorter(k);
+    }
+    return k;
+}
+
 
 void draw(){
  
