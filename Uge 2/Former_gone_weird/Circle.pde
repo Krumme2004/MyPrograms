@@ -8,12 +8,12 @@ class Circle {
   }
 
   void tegnCircle() {
-    circle(a, b, 100);
-
     float t = random(256);
     float h = random(256);
     float n = random(256);
     color m =color(t, h, n);
     fill(m);
+
+    circle(a, b, 100);
   }
 }

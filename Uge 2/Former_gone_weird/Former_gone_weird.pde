@@ -1,4 +1,5 @@
-// initiering af variablen f
+
+// initiering af variabler
 Firkant f;
 Circle c;
 Rektangel r;
@@ -9,7 +10,7 @@ int omgange = 0;
 
 void setup() {
   size (600, 400);
-  frameRate(1);
+  frameRate(2);
 }
 
 void draw() {
@@ -19,28 +20,34 @@ void draw() {
   t = new Triangle();
 
 
-  //Tegn forme skiftevis
+  //Tegn former skiftevis
   if (tegnForm == 0) {
     f.tegnSquare();
-    tegnForm = 1;
+    println("tegner []");
   }
 
   if (tegnForm == 1) {
     c.tegnCircle();
-    tegnForm = 2;
+    println("tegner OOO");
   }
 
   if (tegnForm == 2) {
     r.tegnRekt();
-    tegnForm = 3;
+    println("tegner __");
+    println("       ||");
+    println("       --");
   }
 
   if (tegnForm == 3) {
     t.tegnTrekt();
-    tegnForm = 4;
-  } else {
+    println("tegner <|");
+  }
+
+  if (tegnForm >3) {
+    tegnForm =0;
     omgange++;
-    println("nice Shapes bro" + omgange);
-    tegnForm = 0;
+    println("nice Shapes bro, udført " + omgange + " gange");
+  } else {
+    tegnForm++;
   }
 }

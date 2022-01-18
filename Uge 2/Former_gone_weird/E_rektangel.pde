@@ -10,12 +10,12 @@ class Rektangel {
   }
 
   void tegnRekt() {
-    rect(x, y, z, q);
-
     float r = random(256);
     float g = random(256);
     float b = random(256);
     color c =color(r, g, b);
     fill(c);
+
+    rect(x, y, z, q);
   }
 }
