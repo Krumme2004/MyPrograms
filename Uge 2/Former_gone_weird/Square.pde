@@ -9,12 +9,14 @@ class Firkant {
   }
 
   void tegnSquare() {
-    square(x, y, 100);
-
+    
+    // først samler du tuchen op så tegner de ;)  
     float r = random(256);
     float g = random(256);
     float b = random(256);
     color c =color(r, g, b);
     fill(c);
+    
+    square(x, y, 100);
   }
 }

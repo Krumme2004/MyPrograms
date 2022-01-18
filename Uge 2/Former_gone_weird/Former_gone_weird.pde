@@ -22,25 +22,33 @@ void draw() {
   //Tegn forme skiftevis
   if (tegnForm == 0) {
     f.tegnSquare();
-    tegnForm = 1;
+    //tegnForm = 1;
   }
 
   if (tegnForm == 1) {
     c.tegnCircle();
-    tegnForm = 2;
+    println("tegner OOO");
+    //tegnForm = 2;
   }
 
   if (tegnForm == 2) {
     r.tegnRekt();
-    tegnForm = 3;
+    //tegnForm = 3;
   }
 
   if (tegnForm == 3) {
     t.tegnTrekt();
-    tegnForm = 4;
-  } else {
-    omgange++;
-    println("nice Shapes bro" + omgange);
-    tegnForm = 0;
+    //tegnForm = 4;
+  
   }
+    if(tegnForm >3){
+    tegnForm =0;
+    }
+    else{
+    tegnForm++;
+    }
+    println("nice Shapes bro" + omgange);
+    omgange++;
+    
+  
 }
