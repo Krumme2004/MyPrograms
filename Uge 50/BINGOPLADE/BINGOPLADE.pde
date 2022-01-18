@@ -58,7 +58,17 @@ for(int g=0; g<3; g++){
 
 
 void draw(){
+  if(myClient.available()>0){
+    dataIn = myClient.read();
+    //tilføj til det array hvor vi gemmer tal
+  }
+  
+  if(findNumber(bankoPlade, dataIn))
+  text("Yahoo!!", 300,300);
 }
+//gem nyt tal
+
+//søg efter tal på vores plade og gør noget hvis det findes
 
 
 int[] tilfaeldige3Tal(int t){
