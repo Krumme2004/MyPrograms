@@ -1,0 +1,3 @@
+Lav et program, der tager et tilfældigt tal fra billed 0-værdi til max-værdi.
+
+Denne værdi gemmes som en int og bruges så til at finde billedet der matcher. Koordinatlisten loades og der søges en String, hvor den første Char svarer til det tilfældige tal som er gemt. Derved er både koordinater og billed gemt sammen på en måde hvor de matcher hinanden.

@@ -1,0 +1,11 @@
+0Coords 96;55
+1Coords 91;67
+2Coords 72;90
+3Coords 93;78
+4Coords 77;28
+5Coords 51;38
+6Coords 40;55
+7Coords 60;45
+8Coords 36;51
+9Coords 82;59
+

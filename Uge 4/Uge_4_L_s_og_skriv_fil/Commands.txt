@@ -1,0 +1,34 @@
+//replace stone_brick_stairs[facing=south] 40%stone_brick_stairs[facing=south],20%stone_stairs[facing=south],9%cobblestone_stairs[facing=south],10%polished_andesite_stairs[facing=south],15%andesite_stairs[facing=south]
+
+//replace stone_brick_stairs[facing=north] 40%stone_brick_stairs[facing=north],20%stone_stairs[facing=north],9%cobblestone_stairs[facing=north],10%polished_andesite_stairs[facing=north],15%andesite_stairs[facing=north]
+
+//replace stone_brick_stairs[facing=west] 40%stone_brick_stairs[facing=west],20%stone_stairs[facing=west],9%cobblestone_stairs[facing=west],10%polished_andesite_stairs[facing=west],15%andesite_stairs[facing=west]
+
+//replace stone_brick_stairs[facing=east] 40%stone_brick_stairs[facing=east],20%stone_stairs[facing=east],9%cobblestone_stairs[facing=east],10%polished_andesite_stairs[facing=east],15%andesite_stairs[facing=east]
+
+
+//replace stone_brick_slab[type=top] 40%stone_brick_slab[type=top],20%stone_slab[type=top],9%cobblestone_slab[type=top],10%polished_andesite_slab[type=top],15%andesite_slab[type=top]
+
+//replace stone_brick_slab[type=bottom] 40%stone_brick_slab[type=bottom],20%stone_slab[type=bottom],9%cobblestone_slab[type=bottom],10%polished_andesite_slab[type=bottom],15%andesite_slab[type=bottom]
+
+
+//replace granite 45%granite,2%granite_wall,23%polished_granite,20%bricks
+
+
+//replace stone_bricks 40%stone_bricks,15%stone,15%smooth_stone,15%polished_andesite,15%clay
+
+//replace quartz_pillar[axis=y] 
+
+
+
+195.242.193.30
+454944565972041738
+
+49.5%stone,15%iron_ore,25%coal_ore,10%gold_ore,0.001%gold_block
+
+
+//replace stone 10%stone,30%coal_ore,12%coal_block,25%iron_ore,15%gold_ore,5%iron_block,3%gold_block
+
+//replace stone 10%coal_ore,20%coal_block,12%iron_ore,25%gold_ore,15%iron_block,10%gold_block,8%redstone_ore
+
+//replace black_concrete 10%lime_concrete,10%orange_concrete,10%green_concrete,10%purple_concrete,10%magenta_concrete,10%blue_concrete,10%red_concrete,10%white_concrete,10%orange_concrete
