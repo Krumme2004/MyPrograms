@@ -1,2 +1,11 @@
-
+0Coords 58;49
+1Coords 42;27
+2Coords 42;27
+3Coords 53;33
+4Coords 53;33
+5Coords 48;33
+6Coords 48;33
+7Coords 42;52
+8Coords 50;43
+9Coords 50;43
 
